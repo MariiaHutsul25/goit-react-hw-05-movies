@@ -11,7 +11,7 @@ const MoviesPage = () => {
   const queryUrl = new URLSearchParams(location.search).get("query");
 
   useEffect(() => {
-    if (findFilm) return;
+    if (findFilm === 0) return;
     getMoviesQuery(findFilm).then(setFilms);
   }, [findFilm]);
 

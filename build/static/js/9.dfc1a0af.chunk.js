@@ -1,0 +1,2 @@
+(this["webpackJsonpgoit-react-hw-05-movies"]=this["webpackJsonpgoit-react-hw-05-movies"]||[]).push([[9],{69:function(e,t,i){"use strict";i.r(t);var c=i(1);t.default=function(e){var t=e.moviesIdReview;return Object(c.jsx)(c.Fragment,{children:0===t.length?Object(c.jsx)("p",{children:"No reviews"}):t&&t.map((function(e){return Object(c.jsxs)("div",{children:[Object(c.jsx)("h3",{children:e.author}),Object(c.jsx)("p",{children:e.content})]},e.id)}))})}}}]);
+//# sourceMappingURL=9.dfc1a0af.chunk.js.map
